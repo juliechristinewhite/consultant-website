@@ -1,0 +1,136 @@
+footer {
+	clear: both;
+	background-color: #3A526A;
+	margin-top: 160px;
+	.container {
+		max-width: 900px;
+		margin: 0 auto;
+		// background-color: #455D75;
+	}
+	.footer__copyright {
+		background-color: #455D75;
+		color: #7896B2;
+		font-size: 10px;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+.footer__form {
+	background-color: #05A5EF;
+	text-align: center;
+	padding: 70px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	position: relative;
+	bottom: 110px;
+	h3 {
+		margin-top: 0;
+		margin-top: 0;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	p {
+		font-weight: lighter;
+		margin-top: 0;
+		font-size: 13px;
+	}
+	input[type='email'] {
+		padding: 7px;
+		border: none;
+		width: 40%;
+	}
+	input[type='submit'] {
+		padding-bottom: 8px;
+		padding-top: 11px;
+		width: 15%;
+		color: white;
+		background-color: #FE5722;
+		border: none;
+		margin-left: -5px;
+		margin-bottom: -3px;
+		font-size: 12px;
+		letter-spacing: 1px;
+		box-shadow: none;
+	}
+}
+
+.footer__content {
+	margin-top: -60px;
+	background-color: #3A526A;
+	color: #7896B2;
+	display: flex;
+	ul {
+		padding-left: 0;
+	}
+	li {
+		list-style-type: none;
+	}
+	a {
+		color: #7896B2;
+		font-weight: lighter;
+		font-size: 11px;
+	}
+	a:hover {
+		color: white;
+	}
+	p {
+		font-weight: lighter;
+		font-size: 11px;
+	}
+	h4 {
+		color: white;
+		margin: 0;
+		font-weight: normal;
+		letter-spacing: 1px;
+		font-size: 15px;
+	}
+	.content__logo {
+		width: 40%;
+		background-image: url(images/footer-logo.png);
+		background-size: 175px;
+		background-position: left center;
+		background-repeat: no-repeat;
+	}
+	.content__quickLinks {
+		width: 30%;
+		
+	}
+	.content__address {
+		width: 30%;
+	}
+	.content__quickLinks--flex, .content__address--flex {
+		display: flex;
+	}
+	.content__quickLinks {
+		ul:last-of-type {
+			margin-left: 70px;
+		}
+	}
+	.content__address--flex {
+		justify-content: space-between;
+		.addressSection__other {
+			width: 48%;
+			ul {
+				display: flex;
+				margin: 0;
+			}
+			li {
+				padding-left: 10px;
+			}
+			li:first-of-type {
+				padding-left: 0;
+			}
+			i {
+				color: white;
+			}
+			.addressSection--white {
+				color: white;
+			}
+		}
+		.addressSection__address {
+			width: 48%;
+		}
+	}
+}

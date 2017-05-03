@@ -1,0 +1,28 @@
+.topBar {
+	// border: 1px solid blue;
+}
+
+.navBar {
+	// border: 1px solid red;
+}
+
+.topBar__contact {
+	// border: 1px solid orange;
+	display: flex;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	// border: 1px solid black;
+	li {
+		display: inline;
+		margin-right: 10px;
+		a {
+			color: #333;
+			padding: 10px;
+			background: #333;
+			color: white;
+		}
+	}
+}
